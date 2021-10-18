@@ -1,0 +1,675 @@
+/* header*/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: rgb(103, 101, 224);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    text-align: center;
+    font-size: large;
+}
+  
+.li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+.li a.active {
+    background-color: rgb(76, 74, 185);
+    color: white;
+}
+  
+a.active:hover{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.li a:hover:not(.active) {
+    background-color: rgb(148, 148, 148);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top:20% ;
+    background-color: rgb(230, 230, 230);
+}
+
+.footerleft{
+    width: 15%;
+}
+
+.footerright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+
+.partenaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.part{
+    width: 70px;
+    height: 70px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 2px rgb(190, 190, 190);
+    border-left: solid 2px rgb(190, 190, 190);
+    width: 45%;
+    height: 55%;
+    gap: 20px;
+}
+
+.copy{
+    font-size: 20px ;
+}
+
+.rs{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logors{
+    width: 50px;
+    height: 50px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 184, 184);
+}
+
+/*Accueil*/
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100% !important;
+    background-image:url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1711/Buildings-city-street-cars-dusk_3840x2160.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+.containeraccueil{
+    display: flex;
+    flex-direction: row;
+}
+.leftpart{
+    width: 9%;
+}
+
+.rightpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding:1px 16px;
+    width: 91%;
+}
+.uppart{
+    width: 100%;
+    height: 80%;
+}
+
+.parede{
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center ;
+    color: white;
+    text-shadow: 15px 15px 8px rgb(84, 64, 197);
+    padding-bottom: 20%;
+    padding-top: 10%;
+}
+
+.present1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+
+.present2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+}
+
+.logo{
+    width: 350px;
+    height: 350px;
+}
+
+.img{
+    width: 477px;
+    height: 318px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 15px solid rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
+}
+
+.text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 500px;
+    padding-right: 1%;
+}
+
+.present3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(189, 189, 189); 
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+}
+
+.expert{
+    margin-left:5%;
+    font-size: 22px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.expert1{
+    font-size: 22px ;
+    background-color: rgb(228, 228, 228);
+    border: 50px solid rgb(228, 228, 228); 
+    margin-left: 12.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Team*/
+
+.containerTeam{
+    display: flex;
+    flex-direction: row;
+}
+.leftpartTeam{
+    width: 9%;
+}
+
+.rightpartTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding:1px 16px;
+    width: 91%;
+}
+
+.downpartTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(228, 228, 228);
+    gap: 80px;
+}
+
+.imgTeam{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 10px solid rgb(228, 228, 228);
+}
+.imgTeam1{
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.Team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inTeam2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: rgb(189, 189, 189) ;
+    border-radius: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 6px rgb(0, 0, 0) ;
+    border: rgb(228, 228, 228) solid 20px;
+}
+
+.Rodrigo{
+    padding-right: 20%;
+}
+
+/*Contact*/
+
+.containerContact{
+    display: flex;
+    flex-direction: row;
+}
+.leftpartContact{
+    width: 9%;
+}
+
+.rightpartContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding:1px 16px;
+    width: 91%;
+}
+
+.downpartContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(189, 189, 189);
+    width: 70%;
+    height: 1000px;
+    border-radius: 40px;
+}
+
+.titleformcontact{
+    font-size: 26px;
+    color: rgb(37, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 3px rgba(84, 64, 197, 0.5) ;
+}
+
+.formulaire{
+    height:100%;
+    width: 58%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formation{
+    border-width: 1px;
+    border:outset rgb(103, 101, 224) 1px ;
+    border-style: solid;
+    font-size: 25px;
+    color: #a0a0a0;
+    background-color: rgb(241, 241, 241);
+    margin-left: 3%;
+    width: 45%;
+    height: 6%;
+    margin-top: 2%;
+}
+
+#infocontact{
+    border-width: 1px;
+    border:outset rgb(103, 101, 224) 1px ;
+    border-style: solid;
+    font-size: 25px;
+    color: #0c71c3;
+    background-color: rgb(241, 241, 241);
+    margin-left: 3%;
+    width: 45%;
+    height: 6%;
+    margin-top: 4%;
+}
+
+#infocontact1{
+    border-width: 1px;
+    border:outset rgb(103, 101, 224) 1px ;
+    border-style: solid;
+    font-size: 25px;
+    color: #0c71c3;
+    background-color: rgb(241, 241, 241);
+    margin-left: 3%;
+    width: 94%;
+    height: 6%;
+    margin-top: 4%;
+}
+
+#infocontact2{
+    border-width: 1px;
+    border:outset rgb(103, 101, 224) 1px ;
+    border-style: solid;
+    font-size: 25px;
+    color: #0c71c3;
+    background-color: rgb(241, 241, 241);
+    margin-left: 3%;
+    width: 94%;
+    height: 20%;
+    margin-top: 4%;
+}
+
+#sendcontact{
+    color:white;
+    padding: 2%;
+    background-color: #275fa0;
+    cursor:pointer;
+    border: grey solid 2px;
+    border-radius: 100px;
+    width: 20%;
+    margin-top: 3%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 85%;
+}
+
+#sendcontact:hover{
+    color: grey;
+    text-shadow: 5px 5px 3px rgba(84, 64, 197, 0.5) ;
+    background-color: rgb(241, 241, 241);
+    border: rgb(103, 101, 224) 2px solid;
+    height: 6%;
+    width: 22%;
+}
+
+/*réalisation*/
+
+.nosrea{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(103, 101, 224);
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10%;
+    height: 20px;
+    margin-top: 10px;
+    
+}
+
+.p2{
+    font-size: 23px;
+    color: rgb(103, 101, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#containeurrealisation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgarchi{
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+.imgarchi:hover{
+    width: 500px;
+    height: 400px;
+}
+
+    
+.imgmusic{
+    display: block;
+    width: 362px;
+    height: 298px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 25px;
+    text-shadow: 8px 8px 2px 1px black;
+    padding-left: 20px;
+}
+
+.imgmusic:hover{
+    width: 500px;
+    height: 400px;
+}
+
+.bodyrea{
+    background-image: url(https://www.bouygues-batiment-ile-de-france.com/sites/default/files/styles/sliderhomepage_1400_x_555_/public/emblematik.jpg?itok=oQYHPKYb);
+    background-size: 150%;
+    background-attachment: fixed;
+}
+
+.rea{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167) ;
+    text-shadow: 8px 8px 2px 1px black;
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 350px;
+    
+    
+}
+
+.para{
+    text-align-last: center;
+    font-size: 25px;
+    padding-left: 25px;
+
+
+}
+
+.droite{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauche{
+    width: 10%;
+}
+
+        /*boiteimage*/
+
+#containeurimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    margin-top: 40px;
+    margin-left: 20px;
+
+    
+    
+}
+
+.imgtrav{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#containeurimg2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.imgtrav2{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+
+.imgtrav:hover{
+    width: 500px;
+    height: 400px;
+}
+
+.imgtrav2:hover{
+    width: 500px;
+    height: 400px;
+}
+
+        /* presentation de l'entreprise*/
+
+.bodypresentation{
+    background-color: transparent;
+    background-size: 110%;
+    background-attachment: fixed;
+    background-image: url(https://www.lafactory.ma/wp-content/uploads/2016/10/37347956_custom.jpg)
+}
+
+.etp{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgb(27, 137, 201) ;
+    text-shadow: 8px 8px 2px 1px black;
+    padding-top: 10px;
+    margin-top: 15%;
+    width: 900px;
+    height: 250px;
+}
+
+.presentation{
+    width: 370px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(71, 120, 211);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 88, 134);
+    padding-top: 10px;
+    padding-bottom: 10%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 300px;
+}
+
+.pretext1{
+    font-size: 30px;
+    color: rgb(9, 88, 134);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.containeurimg3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 12px 12px 2px 1px rgb(94, 93, 167);
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.imgentreprise{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgb(40, 113, 182);
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+
+.imgentreprise:hover{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px rgb(27, 137, 201) ;
+    text-shadow: 8px 8px 2px 1px black;
+    padding-top: 30px;
+    margin-top: 15%;
+    width: 900px;
+    height: 250px; 
+}
+
+.ch{
+    color:rgb(9, 88, 134) ;
+    list-style-type: circle;
+    font-size: 40px;
+}
+
+.dollars{
+   width: 300px;
+   height: 200px; 
+}
+
+
